@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-*(qp2r5upe(j$5z2-d#6bey8a!rggd47*kayi97-284=l9!9&(
 #DEBUG = True
 DEBUG = True  #this is done to deploy on heroku
 
-ALLOWED_HOSTS = ['127.0.0.1','anugrahmasihmail.herokuapp.com']    # 'ide-31da5de9d2d54fcf86db0cc0936dc4b1-8080.cs50.ws'  this is for cs50 ide
+ALLOWED_HOSTS = ['127.0.0.1','anugrahmasihmail.herokuapp.com']  
 
 
 # Application definition
@@ -138,8 +138,8 @@ EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_PORT='587'
 EMAIL_USE_TLS='True'
-EMAIL_HOST_USER='masihjospin09@gmail.com'
-EMAIL_HOST_PASSWORD='rmjlvdynijtgvnmw'
+EMAIL_HOST_USER=''
+EMAIL_HOST_PASSWORD=''
 
 
 # Activate Django-Heroku.
